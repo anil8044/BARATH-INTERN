@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: red;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  
+  width: 100%;
+  padding: 20px;
+}
+.Golconda{
+    background-color:pink;
+   padding: 20px;
+   margin-top: 20px;
+}
+/* Add a card effect for articles */
+.card {
+   background-color: aqua;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>City of Pearls - Hyderabad</h2>
+  <h5>Travel Blog</h5>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Charminar</h2>
+      <h5>An iconic landmark of Hyderabad and located in the Old City, it is said to have been built as a charm against a deadly epidemic raging in 1591. Charminar has 45 prayer spaces with four graceful minarets projected towards the sky.</h5>
+      <div>
+      <img src="charminar.jpg" alt="charminar" height="500px" width="800px">
+    </div>
+      <p>The Charminar is situated on the east bank of Musi River.To the west lies the Laad Bazaar, and to the southwest lies the richly ornamented granite Makkah Masjid.It is listed as an archaeological and architectural treasure on the official list of monuments prepared by the Archaeological Survey of India.The English name is a translation and combination of the Urdu words chār and minar or meenar, translating to "Four Pillars"; the eponymous towers are ornate minarets attached and supported by four grand arches</p>
+    </div>
+    <div class="Golconda">
+      <h2>Golconda Fort</h2>
+      <h5>Capital of the Qutb Shahi kingdom, it is considered by many as one of the most magnificent fortress complexes in India. A Light and Sound show is held in the evenings wherein the glorious past of Golconda Fort is narrated with Golconda depicted full of life, glory and grandeur.</h5>
+      <div>
+        <img src="golconda fort.jpg" alt="Golconda Fort" height="500px" width="800px">
+      </div>
+      <p>The fort was originally built by Kakatiya ruler Prataparudra in the 11th century out of mud walls. It was ceded to the Bahmani Kings by Deo Rai, Rajah of Warangal during the reign of Sultan Muhammad Shah (1358-1375 A.D.) of the Bahmani Sultanate.</p>
+    </div>
+    <div class="Salrjung Museum">
+      <h2>Golconda Fort</h2>
+      <h5>Capital of the Qutb Shahi kingdom, it is considered by many as one of the most magnificent fortress complexes in India. A Light and Sound show is held in the evenings wherein the glorious past of Golconda Fort is narrated with Golconda depicted full of life, glory and grandeur.</h5>
+      <div>
+        <img src="golconda fort.jpg" alt="Golconda Fort" height="500px" width="800px">
+      </div>
+      <p>The fort was originally built by Kakatiya ruler Prataparudra in the 11th century out of mud walls. It was ceded to the Bahmani Kings by Deo Rai, Rajah of Warangal during the reign of Sultan Muhammad Shah (1358-1375 A.D.) of the Bahmani Sultanate.</p>
+    </div>
+  </div>  
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div>
+        <img src="anil1.jpg" alt="Picture of Me" height="300px" width="300px">
+      </div>
+      <p>My name is Anil and I am a Travel enthusiast.I travel to different cities and explore them know about their culture and food practices.</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div> <img src="trip1.jpg" alt="Picture of trip1" height="200px" width="200px"></div><br>
+      <div> <img src="trip2.jpg" alt="Picture of trip2" height="200px" width="200px"></div><br>
+      <div> <img src="trip3.jpg" alt="Picture of trip3" height="200px" width="200px"></div><br>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+    <iframe width="420" height="315"
+src="https://www.youtube.com/embed/watch?v=YsxlG9QvXXI">
+</iframe>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+</body>
+</html>
